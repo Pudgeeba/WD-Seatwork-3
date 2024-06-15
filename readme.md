@@ -9,9 +9,10 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
+<p>This project is for exploring various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations.</p>
 <div align="center">
   Short Description. (Optional)
 </div>
