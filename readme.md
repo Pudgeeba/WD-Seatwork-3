@@ -58,7 +58,10 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project was created to explore various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations. It contains a Landing page, with a title, subtitle, a description, and 2 buttons that links us to 2 different pages; One is for 5 examples of static headers and 5 examples of animated header, and the second one is for 5 static footers and 5 animated footers.
+
+<h1> DEPLOYMENT LINK </h1>
+<p> https://pudgeeba.github.io/WD-Seatwork-3./ </p>
 
 Guiding Question:
 - What is the project
@@ -67,11 +70,12 @@ Guiding Question:
 - What technology used and how it is used
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+- Headers Page
+- Footers Page
+- Learning how to link one page to another
+- Exploring different css and html skills
+- Showcasing creativity
 
 ### Technology
 <!-- TODO: List of Technology Used -->
