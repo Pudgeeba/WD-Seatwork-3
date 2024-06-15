@@ -1,530 +1,236 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: fit-content;
-    width: 100vw;
-    overflow-x: hidden;
-  }
-  
-  section {
-    width: 100vw;
-    padding: 1rem 5vw;
-    display: flex;
-    gap: 1rem;
-    align-items: flex-end;
-  }
-  
-  /* Nested Specific */
-  header.design-one {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.7rem 10vw;
-    background: wheat;
-  
-    & > img.company-logo {
-      height: 50px;
-    }
-  
-    & > nav.navigation {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-  
-      & > a.navigation-content {
-        font-weight: 600;
-        font-size: 1.1rem;
-        color: black;
-      }
-    }
-  }
-  
-  /* Nested Specific Class */
-  .design-two {
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    padding: 0.7rem 10vw;
-    align-items: center;
-    background: black;
-  
-    & > .navigation {
-      display: flex;
-      gap: 1rem;
-      align-items: center;
-  
-      & > .navigation-content {
-        color: aliceblue;
-        font-weight: 800;
-        font-size: 1.2rem;
-      }
-  
-      & > .call-to-action {
-        border: 1px white solid;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-      }
-    }
-  }
-  
-  /* Non-Nested Non-Specific Class */
-  .design-three {
-    display: flex;
-    align-self: flex-start;
-    width: calc(100% - 1rem);
-    justify-content: space-between;
-    padding: 0.7rem 14vw;
-    box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 1);
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-  
-  .design-three .navigation {
-    display: flex;
-    gap: 0.7rem;
-    align-items: center;
-  }
-  
-  .design-three .navigation .nav-button {
-    font-weight: 800;
-    font-size: 1.1rem;
-  }
-  
-  .design-three .navigation .bi {
-    font-size: 2.5rem;
-  }
-  
-  /* Universal Class */
-  .company-logo {
-    height: 50px;
-  }
-  
-  /* Nested Non-Specific Class */
-  .design-four {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 2rem;
-    width: 100vw;
-    box-shadow: 0 10px rgba(124, 124, 124, 0.534);
-    padding: 1.5rem 0;
-    border: 1px black solid;
-  
-    & .company-logo {
-      height: 70px;
-    }
-  
-    & .navigation {
-      display: flex;
-      gap: 1rem;
-    }
-  
-    & .navigation-content {
-      color: black;
-      font-weight: 700;
-      font-size: 1.2rem;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    }
-  }
-  
-  .design-five {
-    display: flex;
-    flex-direction: column;
-    /* position: fixed; */
-    left: 0;
-    height: 100vh;
-    justify-content: space-between;
-    background: black;
-    padding: .5rem 0;
-    align-items: center;
-    align-self: flex-start;
-  
-    & .company-logo {
-      height: 100px;
-      padding: 1rem;
-    }
-  
-    & i {
-      font-size: 2rem;
-      color: aliceblue;
-    }
-  
-    & .navigation {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-  }
-  
-  /* Design with animation */
-  header.design-one-animation {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10vw;
-    height: calc(50px + 1rem);
-    align-items: center;
-    background: rgb(252, 240, 218);
-  
-    & > img.company-logo {
-      height: 50px;
-      padding: 0.2rem 0;
-      transition: all 0.3s ease;
-  
-      &:hover {
-        transform: rotateZ(720deg);
-      }
-    }
-  
-    & > nav.navigation {
-      display: flex;
-      align-items: center;
-      height: 100%;
-  
-      & > a.navigation-content {
-        font-weight: 600;
-        font-size: 1.1rem;
-        color: black;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        padding: 0 1rem;
-        transition: 0.2s ease;
-  
-        &:hover {
-          background: rgb(255, 229, 79);
-        }
-      }
-    }
-  }
-  
-  header.design-two-animation {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10vw;
-    height: calc(50px + 1rem);
-    align-items: center;
-    background: rgb(252, 240, 218);
-  
-    & > .pop-up {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-  
-      &:hover {
-        & > img.company-logo {
-          transform: rotateZ(720deg);
-        }
-  
-        & > h1 {
-          color: black;
-          transform: translateX(0);
-        }
-      }
-  
-      & > img.company-logo {
-        height: 50px;
-        padding: 0.2rem 0;
-        transition: all 0.3s ease;
-      }
-  
-      & > h1 {
-        color: transparent;
-        transform: translateX(-5rem);
-        transition: all 0.3s ease;
-      }
-    }
-  
-    & > nav.navigation {
-      display: flex;
-      align-items: center;
-      height: 100%;
-  
-      & > a.navigation-content {
-        font-weight: 600;
-        font-size: 1.1rem;
-        color: black;
-        transition: 0.2s ease;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        padding: 0 1rem;
-        border: 1px transparent solid;
-  
-        &:hover {
-          background: rgb(255, 229, 79);
-          transform: translate(-10px, -10px);
-          box-shadow: 10px 10px 0px 0px rgb(107, 98, 43);
-          border: 1px rgb(0, 0, 0) solid;
-        }
-  
-        &:active {
-          background: rgb(252, 217, 21);
-          transform: translate(0px, 0px);
-          box-shadow: 0px 0px 0px 0px rgb(107, 98, 43);
-          border: 1px transparent solid;
-        }
-      }
-    }
-  }
-  
-  .design-three-animation {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 2rem;
-    width: 100vw;
-    box-shadow: 0 10px rgba(124, 124, 124, 0.534);
-    padding: 1.5rem 0;
-    border: 1px black solid;
-  
-    &:hover .company-logo:not(:hover),
-    &:hover .navigation-content:not(:hover) {
-      transform: scale(0.85);
-    }
-  
-    &:hover .navigation-content:not(:hover) {
-      opacity: 0.7;
-    }
-  
-    & .company-logo {
-      height: 70px;
-      transition: 0.3s ease;
-  
-      &:hover {
-        filter: drop-shadow(5px 5px 5px rgb(141, 141, 141));
-      }
-    }
-  
-    & .navigation {
-      display: flex;
-      gap: 1rem;
-    }
-  
-    & .navigation-content {
-      color: black;
-      font-weight: 700;
-      font-size: 1.2rem;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      transition: 0.3s ease;
-      border-bottom: 3px solid transparent;
-  
-      &::before {
-        background: #57575783;
-        width: 0;
-        height: 20px;
-        content: "";
-        display: block;
-        position: relative;
-        top: 20px;
-        right: 5px;
-        transition: 0.3s ease;
-        z-index: -1;
-      }
-  
-      &:hover {
-        &.blue {
-          border-bottom: 3px solid blue;
-          &::before {
-            width: 10px;
-            background: #4ca9ff83;
-          }
-        }
-  
-        &.red {
-          border-bottom: 3px solid red;
-          &::before {
-            width: 10px;
-            background: #ff4c4c83;
-          }
-        }
-  
-        &.violet {
-          border-bottom: 3px solid violet;
-          &::before {
-            width: 10px;
-            background: #f94cff83;
-          }
-        }
-  
-        &.green {
-          border-bottom: 3px solid green;
-          &::before {
-            width: 10px;
-            background: #5bff4c83;
-          }
-        }
-      }
-    }
-  }
-  
-  .design-four-animation {
-    display: flex;
-    flex-direction: column;
-    /* position: fixed; */
-    left: 0;
-    height: 100vh;
-    justify-content: space-between;
-    background: black;
-    padding: .5rem 0;
-    align-items: center;
-    align-self: flex-start;
-  
-    & .company-logo {
-      height: 100px;
-      padding: .5rem;
-      transition: all ease .2s;
-  
-      &:hover {
-        transform: scale(1.2);
-        filter: drop-shadow(0 0 10px white);
-      }
-  
-    }
-  
-    & i {
-      font-size: 2rem;
-      color: aliceblue;
-    width: 100%;
-    display: contents;
-    }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
     
-    & a {
-        width: 100%;
-        transition: all ease .2s;
-        display: flex;
-        justify-content: center;
-        }
-  
-  
-    & .navigation {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 100%;
-  
-      &:hover a:not(:hover) {
-        transform: rotateY(180deg) scale(.7);
-      }
-    }
-  
-    & a.socials {
-      & h3 {
-        position: absolute;
-        left: 2rem;
-        background: transparent;
-        color: transparent;
-        padding: .3rem .7rem;
-        border: transparent 1px solid;
-        border-radius: 5px;
-        transition: all .3s ease;
-      }
-  
-      &:hover {
-        & h3 {
-          left: 5rem;
-          background: white;
-          color: black;
-          border-color: black;
-        }
-      }
-    }
-  }
-  
-  .design-five-animation {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 2rem;
-    width: 100vw;
-    box-shadow: 0 10px rgba(124, 124, 124, 0.534);
-    padding: 1.5rem 0;
-    border: 1px black solid;
-  
-    &:hover {
-      & .navigation-content:not(:hover) {
-        transform: scale(.5);
-      }
-    }
-  
-    & .name {
-      color: transparent;
-      position: absolute;
-      padding-left: 28px;
-      transform: translateY(0) scale(0);
-      transition: all ease .2s;
-    }
-  
-    & .bubbles {
-      position: absolute;
-      width: 12px;
-      transform: translateX(13px);
-      transition: all ease .2s;
-      z-index: -1;
-    }
-  
-    & .company-logo {
-      height: 70px;
-      transition: all ease .2s;
-  
-      &:hover {
-        transform: scale(1.2);
-      }
-  
-      &:active {
-        transform: scale(.8);
-        filter: drop-shadow(0 0 10px black);
-  
-        & ~ .name {
-          color: black;
-          transform: translateY(20px);
-        }
-  
-        & ~ .bubbles {
-          &.bubble1 {
-            transform: translateY(-70px) translateX(13px);
-          }
-          
-          &.bubble2 {
-            transform: translateY(-65px) translateX(-5px);
-          }
+    <!-- CDNJS Tags -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
+  <body>
+    <h1><strong>Static Header Designs</strong></h1>
+    <a href="../../index.html">Back to Landing Page</a>
+
+    <section class="design1">
+      <h3>Design 1</h3>
+      <p>Composition of Logo & 5 Navigations</p>
+    </section>
+    <header class="design-one">
+      <img
+        src="img/hello-kitty-logo.png"
+        alt="hello-kitty-logo"
+        class="company-logo"
+      />
+      <nav class="navigation">
+        <a href="" class="navigation-content"> Work </a>
+        <a href="" class="navigation-content"> Services </a>
+        <a href="" class="navigation-content"> About </a>
+        <a href="" class="navigation-content"> Blog </a>
+        <a href="" class="navigation-content different-font"> Contact </a>
+      </nav>
+    </header>
+
+    <section class="design2">
+      <h3>Design 2</h3>
+      <p>Composition of Logo, 5 Navigations & Call to Action</p>
+    </section>
+    <header class="design-two">
+      <img src="img/badtz-maru-head-logo.png" alt="badtz-maru-logo" class="company-logo" />
+      <nav class="navigation">
+        <a href="" class="navigation-content">Work</a>
+        <a href="" class="navigation-content">Services</a>
+        <a href="" class="navigation-content">About</a>
+        <a href="" class="navigation-content">Blog</a>
+        <a href="" class="navigation-content">Contact</a>
+        <a href="" class="navigation-content call-to-action">GET IT TODAY!</a>
+      </nav>
+    </header>
+
+    <section class="design3">
+      <h3>Design 3</h3>
+      <p>Composition of Logo, 4 Navigations</p>
+    </section>
+    <header class="design-three">
       
-          &.bubble3 {
-            transform: translateY(-65px) translateX(30px);
-          }
-        }
-      }
-    }
-  
-    & .navigation {
-      display: flex;
-      gap: 1rem;
-    }
-  
-    & .navigation-content {
-      color: black;
-      font-weight: 700;
-      font-size: 1.2rem;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        transition: all .2s ease;
-    }
-  }
-  
+      <nav class="navigation">
+        
+        <a href="" class="nav-button">Work</a>
+        <a href="" class="nav-button">Services</a>  
+        <img src="img/keroppi-head-logo.png" alt="keroppi-logo" class="company-logo" />
+        <a href="" class="nav-button">About</a>
+        <a href="" class="nav-button">Contact</a>
+        
+      </nav>
+    </header>
+
+    <section class="design4">
+      <h3>Design 4</h3>
+      <p>Composition of Logo, 4 Navigations, & 1 icon</p>
+    </section>
+    <header class="design-four">
+      <nav class="navigation">
+        <img
+        src="img/kuromi-logo.png"
+        alt="kuromi-logo"
+        class="company-logo"/>
+
+        <a href="" class="navigation-content"> Work </a>
+        <a href="" class="navigation-content"> Services </a>
+        <a href="" class="navigation-content"> About </a>
+        <a href="" class="navigation-content"> Blog </a>
+        <i class="glyphicon glyphicon-envelope"></i>
+    </nav>
+    </header>
+
+    <section class="design5">
+      <h3>Design 5</h3>
+      <p>Composition of Logo & 4 icons</p>
+    </section>
+    <header class="design-five">
+      <img
+        src="img/tuxedo-sam-logo.webp"
+        alt="tuxedo-sam-logo"
+        class="company-logo"
+      />
+      <nav class="navigation-5">
+        <i class="glyphicon glyphicon-cloud"></i>
+        <i class="glyphicon glyphicon-user"></i>
+        <i class="glyphicon glyphicon-envelope"></i>
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+      </nav>
+    </header>
+    </header>
+
+    <br />
+    <br />
+    <h1><strong>Animated Header Designs</strong></h1>
+
+    <section class="design1">
+      <h3>Design 1 & Hover Effect</h3>
+      <p>Composition of Logo & 5 Navigations</p>
+    </section>
+    <header class="design-one-animation">
+      <img
+        src="./assets/img/Pokeball.png"
+        alt="pokeball"
+        class="company-logo"
+      />
+      <nav class="navigation">
+        <a href="" class="navigation-content"> Work </a>
+        <a href="" class="navigation-content"> Services </a>
+        <a href="" class="navigation-content"> About </a>
+        <a href="" class="navigation-content"> Blog </a>
+        <a href="" class="navigation-content different-font"> Contact </a>
+      </nav>
+    </header>
+
+    <section class="design2">
+      <h3>Design 2 & Hover Effect & Active Effect</h3>
+      <p>Composition of Logo & 5 Navigations. Added a pop up text</p>
+    </section>
+    <header class="design-two-animation">
+      <div class="pop-up">
+        <img
+          src="./assets/img/Pokeball.png"
+          alt="pokeball"
+          class="company-logo"
+        />
+        <h1>Pokemon</h1>
+      </div>
+      <nav class="navigation">
+        <a href="#" class="navigation-content"> Work </a>
+        <a href="#" class="navigation-content"> Services </a>
+        <a href="#" class="navigation-content"> About </a>
+        <a href="#" class="navigation-content"> Blog </a>
+        <a href="#" class="navigation-content different-font"> Contact </a>
+      </nav>
+    </header>
+
+    <section class="design3">
+      <h3>Design 3 & Active & Not Effect & Before</h3>
+      <p>Composition of Logo & 4 Navigations. Added a fading effect</p>
+    </section>
+    <header class="design-three-animation">
+      <nav class="navigation">
+        <a href="" class="navigation-content red"> Work </a>
+        <a href="" class="navigation-content green"> Services </a>
+      </nav>
+      <img
+        src="./assets/img/dont-starve.webp"
+        alt="pokeball"
+        class="company-logo"
+      />
+      <nav class="navigation">
+        <a href="" class="navigation-content blue"> About </a>
+        <a href="" class="navigation-content violet"> Blog </a>
+      </nav>
+      <i class="fas fa-bars"></i>
+    </header>
+
+    <section class="design4">
+      <h1>Design 4 & Not Effect & Hover</h1>
+      <p>Composition of Logo & 4 icons. Animated with hover and not</p>
+    </section>
+    <header class="design-four-animation">
+      <a href="">
+        <img src="./assets/img/timberborn.webp" alt="" class="company-logo">
+      </a>
+      <nav class="navigation">
+        <a href="">
+          <i class="bi bi-house nav-content"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-briefcase nav-content"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-envelope nav-content"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-newspaper nav-content"></i>
+        </a>
+      </nav>
+      <a href="" class="socials">
+        <i class="bi bi-github"></i>
+        <h3>Github</h3>
+      </a>
+    </header>
+
+    <section class="design5">
+      <h3>Design 5 & Not & Hover & Active</h3>
+      <p>Composition of Logo & 4 Navigations</p>
+    </section>
+    <header class="design-five-animation">
+      <nav class="navigation">
+        <a href="" class="navigation-content"> Work </a>
+        <a href="" class="navigation-content"> Services </a>
+      </nav>
+      <img
+        src="./assets/img/spongebob-house.png"
+        alt="spongebob house"
+        class="company-logo"
+      />
+      <img src="./assets/img/bubbles.png" alt="" class="bubbles bubble1">
+      <img src="./assets/img/bubbles.png" alt="" class="bubbles bubble2">
+      <img src="./assets/img/bubbles.png" alt="" class="bubbles bubble3">
+      <h3 class="name">Spongebob</h3>
+      <nav class="navigation">
+        <a href="" class="navigation-content"> About </a>
+        <a href="" class="navigation-content"> Blog </a>
+      </nav>
+    </header>
+  </body>
+</html>
