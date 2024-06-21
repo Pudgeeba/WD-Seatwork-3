@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-This project focuses on Website Headers and footers. It is for exploring various versions of Headers and Footers with the use of HTML and CSS, showcasing different skills related to the 2 different languages, featuring Multiple Pages, Effects, and Container Manipulations. The project consistsof the following key components: a Landing page, 5 Static Header Designs section, 5 Animated Header with Animation section, 5 Static Footer Designs Section, and 5 Animated Footers with Animation-to briefly demonstrate what possible designs you can implement on your own website or even for commissions!
+This project focuses on Website Headers and Footers. It is for exploring various versions of Headers and Footers with the use of HTML and CSS, showcasing different skills related to the 2 different languages, featuring Multiple Pages, Effects, and Container Manipulations. The project consists of the following key components: a Landing page, 5 Static Header Designs section, 5 Animated Header with Animation section, 5 Static Footer Designs Section, and 5 Animated Footers with Animation-to briefly demonstrate what possible designs you can implement on your own website or even use for commission purposes!
 
 
 ### Key Components
