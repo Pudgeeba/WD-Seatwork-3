@@ -4,17 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Pudgeeba">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./asse" alt="Kln Kreates" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">Seatwork #03: Headers & Footers</h3>
 </div>
 <!-- TODO: Make a short description -->
-<p>This project is for exploring various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations.</p>
 <div align="center">
-  Short Description. (Optional)
+  This project is for exploring various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations.
 </div>
 
 <br />
@@ -58,43 +57,33 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-This project was created to explore various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations. It contains a Landing page, with a title, subtitle, a description, and 2 buttons that links us to 2 different pages; One is for 5 examples of static headers and 5 examples of animated header, and the second one is for 5 static footers and 5 animated footers.
-
-<h1> DEPLOYMENT LINK </h1>
-<p> https://pudgeeba.github.io/WD-Seatwork-3./ </p>
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project focuses on Website Headers and footers. It is for exploring various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations.
 
 ### Key Components
-- Landing Page
-- Headers Page
-- Footers Page
-- Learning how to link one page to another
-- Exploring different css and html skills
-- Showcasing creativity
+<!-- TODO: List of Key Components -->
+<!-- The following are just sample -->
+- Landing page
+- Static Header Design
+- Animated Header Animation
+- Static Footer Design
+- Animated Footer Animation
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
+1. Always use WD- in the front of the Title of the Project for the Subject followed by your custom naming.
+2. Do not rename any .html files; always use index.html as the filename.
 3. Place Files in their respective folders.
 4. All file naming are in camel case.
    - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
    - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
+5. Use only External CSS.
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
-```
 WD-ProjectName
 └─ assets
 |   └─ css
@@ -115,11 +104,10 @@ WD-ProjectName
 |     └─ index.html
 └─ index.html
 └─ readme.md
-```
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3School | HTML/CSS | https://www.w3schools.com/ |
