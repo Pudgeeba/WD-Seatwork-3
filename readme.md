@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Pudgeeba">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/kln-kreates-logo.png" alt="Kln Kreates" width="130" height="130">
+    <img src="./assets/img/kln-kreates-logo.png" alt="Kln Kreates" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork #03: Headers & Footers</h3>
@@ -57,7 +57,8 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-This project focuses on Website Headers and footers. It is for exploring various versions of Headers and Footers as we showcase HTML and CSS skills, featuring Multiple Pages, Effects, and Container Manipulations.
+This project focuses on Website Headers and footers. It is for exploring various versions of Headers and Footers with the use of HTML and CSS, showcasing different skills related to the 2 different languages, featuring Multiple Pages, Effects, and Container Manipulations. The project consistsof the following key components: a Landing page, 5 Static Header Designs section, 5 Animated Header with Animation section, 5 Static Footer Designs Section, and 5 Animated Footers with Animation-to briefly demonstrate what possible designs you can implement on your own website or even for commissions!
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -84,21 +85,42 @@ This project focuses on Website Headers and footers. It is for exploring various
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
-WD-ProjectName
+WD-Seatwork-3
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ cinnamoroll.png
+|   |   └─ kln-kreates-logo.png
+|   |   └─ Sanrio-logo.png
+|   |   
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ footer-gallery
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  |  └─ badtz-maru-head-logo.png
+|     |  |  └─ hello-kitty-bow-logo.png
+|     |  |  └─ hello-kitty-logo.png
+|     |  |  └─ keroppi-head-logo.png
+|     |  |  └─ kuromi-logo.png
+|     |  |  └─ tuxedo-sam-logo.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+|  └─ header-gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ badtz-maru-head-logo.png
+|     |  |  └─ hello-kitty-bow-logo.png
+|     |  |  └─ hello-kitty-logo.png
+|     |  |  └─ keroppi-head-logo.png
+|     |  |  └─ kuromi-logo.png
+|     |  |  └─ tuxedo-sam-logo.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
