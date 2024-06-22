@@ -63,11 +63,20 @@ This project focuses on Website Headers and Footers. It is for exploring various
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Landing page
-- Static Header Design
-- Animated Header Animation
-- Static Footer Design
-- Animated Footer Animation
+•	 Landing page
+• Header Animations
+  - Rotate Effect
+  - Hover Effect
+  - Active Effect
+  - Not Effect
+  - Buttons
+
+• Footer Animations
+  - Rotate Effect
+  - Hover Effect
+  - Active Effect
+  - Not Effect
+  - Buttons
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -133,3 +142,4 @@ WD-Seatwork-3
 | Title | Purpose | Link |
 |-|-|-|
 | W3School | HTML/CSS | https://www.w3schools.com/ |
+| CodeSweetly | HTML/CSS | https://codesweetly.com/ |
